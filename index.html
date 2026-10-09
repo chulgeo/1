@@ -243,7 +243,54 @@ h2{font-size:26px}
 <div class="step"><span class="num">3</span><div><b class="navy">학습</b> — 광고와 온라인 기준은 계속 바뀝니다.</div></div>
 <div class="step"><span class="num">4</span><div><b class="navy">결과</b> — 비용을 쓴다고 원하는 결과가 보장되지 않습니다.</div></div>
 </div>
-<p>그래서 맡겨보신 분도 많으실 겁니다.</p>
+<!-- ===== AI 검색 변화 박스 시작 (여기부터 ===== 끝까지 통째로 복사) ===== -->
+<style>
+.ai-box{margin:34px 0 18px;padding:34px 22px 32px;border-radius:22px;background:linear-gradient(160deg,#1a2468,#202d78 60%,#2a3a9a);box-shadow:0 14px 34px rgba(32,45,120,.28);text-align:center}
+.ai-box .ai-bar{width:46px;height:4px;margin:0 auto 18px;border-radius:4px;background:#e66a1a}
+.ai-box .ai-title{margin:0 0 26px;color:#fff;font-size:24px;line-height:1.5;font-weight:900;letter-spacing:-.03em}
+.ai-box .ai-line{margin:0 0 15px;color:#fff;font-size:21px;line-height:1.65;font-weight:500}
+.ai-box .ai-line b{color:#ff9f5a;font-weight:900}
+.ai-box .ai-last{margin:28px 0 0;font-size:25px;font-weight:900}
+.ai-box .ai-last mark{padding:0 4px;background:linear-gradient(transparent 58%,rgba(230,106,26,.9) 58%);color:#fff}
+.ai-box.ai-js .ai-line{opacity:0;transform:translateY(16px);transition:opacity .6s ease-out,transform .6s ease-out}
+.ai-box.ai-js .ai-line.on{opacity:1;transform:none}
+@media(max-width:560px){.ai-box{padding:30px 18px 28px}.ai-box .ai-title{font-size:22px}.ai-box .ai-line{font-size:19.5px}.ai-box .ai-last{font-size:23px}}
+</style>
+
+<div class="ai-box">
+<div class="ai-bar"></div>
+<h3 class="ai-title">AI 검색엔진의 등장,<br>검색의 흐름이 완전히<br>바뀌고 있습니다.</h3>
+<p class="ai-line">직접 하던 광고, <b>한계에 왔습니다.</b></p>
+<p class="ai-line">검색하면 <b>AI가 답부터 정리하고,</b></p>
+<p class="ai-line">사람들은<br><b>블로그를 열지 않고 나갑니다.</b></p>
+<p class="ai-line">열심히 써도 <b>보이지 않는 시대.</b></p>
+<p class="ai-line ai-last">이제 광고는<br><mark>전문가의 영역</mark>입니다.</p>
+</div>
+
+<div class="shot"><img src="p11.png" alt="AI 검색 시대, 복잡해진 검색 광고 용어들" onerror="this.parentNode.style.display='none'"></div>
+
+<script>
+(function(){
+  var box=document.querySelector('.ai-box');
+  if(!box)return;
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduce||!('IntersectionObserver' in window))return;
+  box.classList.add('ai-js');
+  var io=new IntersectionObserver(function(entries){
+    var n=0;
+    entries.forEach(function(en){
+      if(en.isIntersecting){
+        (function(el,d){setTimeout(function(){el.classList.add('on');},d);})(en.target,n*320);
+        n++;
+        io.unobserve(en.target);
+      }
+    });
+  },{threshold:.6});
+  box.querySelectorAll('.ai-line').forEach(function(l){io.observe(l);});
+})();
+</script>
+<!-- ===== AI 검색 변화 박스 끝 ===== -->
+  ]<p>그래서 맡겨보신 분도 많으실 겁니다.</p>
 <h3>맡겨본 분들은 아실 겁니다.</h3>
 <div class="info">
 <div class="info-title">혹시 이런 경험, 한 번쯤 있으셨다면</div>
