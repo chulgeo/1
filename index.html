@@ -243,53 +243,68 @@ h2{font-size:26px}
 <div class="step"><span class="num">3</span><div><b class="navy">학습</b> — 광고와 온라인 기준은 계속 바뀝니다.</div></div>
 <div class="step"><span class="num">4</span><div><b class="navy">결과</b> — 비용을 쓴다고 원하는 결과가 보장되지 않습니다.</div></div>
 </div>
-<!-- ===== AI 검색 변화 박스 시작 (여기부터 ===== 끝까지 통째로 복사) ===== -->
+<!-- ===== AI검색박스2 시작 (여기부터 끝 표시까지 통째로 복사) ===== -->
 <style>
-.ai-box{margin:34px 0 18px;padding:34px 22px 32px;border-radius:22px;background:linear-gradient(160deg,#1a2468,#202d78 60%,#2a3a9a);box-shadow:0 14px 34px rgba(32,45,120,.28);text-align:center}
-.ai-box .ai-bar{width:46px;height:4px;margin:0 auto 18px;border-radius:4px;background:#e66a1a}
-.ai-box .ai-title{margin:0 0 26px;color:#fff;font-size:24px;line-height:1.5;font-weight:900;letter-spacing:-.03em}
-.ai-box .ai-line{margin:0 0 15px;color:#fff;font-size:21px;line-height:1.65;font-weight:500}
-.ai-box .ai-line b{color:#ff9f5a;font-weight:900}
-.ai-box .ai-last{margin:28px 0 0;font-size:25px;font-weight:900}
-.ai-box .ai-last mark{padding:0 4px;background:linear-gradient(transparent 58%,rgba(230,106,26,.9) 58%);color:#fff}
-.ai-box.ai-js .ai-line{opacity:0;transform:translateY(16px);transition:opacity .6s ease-out,transform .6s ease-out}
-.ai-box.ai-js .ai-line.on{opacity:1;transform:none}
-@media(max-width:560px){.ai-box{padding:30px 18px 28px}.ai-box .ai-title{font-size:22px}.ai-box .ai-line{font-size:19.5px}.ai-box .ai-last{font-size:23px}}
+.ai2{margin:36px 0 22px;padding:34px 22px 26px;border-radius:24px;background:linear-gradient(165deg,#161f5c,#202d78 55%,#2b3b9c);box-shadow:0 16px 38px rgba(32,45,120,.3);color:#fff;text-align:left}
+.ai2-tag{display:inline-block;margin:0 0 16px;padding:7px 14px;border-radius:999px;background:#e66a1a;color:#fff;font-size:14px;font-weight:900;letter-spacing:.04em}
+.ai2-title{margin:0 0 30px;color:#fff;font-size:29px;line-height:1.38;font-weight:900;letter-spacing:-.045em}
+.ai2-title em{font-style:normal;color:#ff9f5a}
+.ai2-list{margin:0 0 26px;padding:0}
+.ai2-row{position:relative;padding:0 0 24px 54px;min-height:40px}
+.ai2-row:before{content:"";position:absolute;left:17px;top:42px;bottom:4px;width:2px;background:rgba(255,255,255,.3)}
+.ai2-row:last-child{padding-bottom:0}
+.ai2-row:last-child:before{display:none}
+.ai2-no{position:absolute;left:0;top:0;width:36px;height:36px;line-height:32px;border-radius:50%;background:rgba(255,255,255,.14);border:2px solid rgba(255,255,255,.6);color:#fff;font-size:16px;font-weight:900;text-align:center}
+.ai2-row p{margin:0;padding-top:0;color:#fff;line-height:1.4}
+.ai2-lead{display:block;margin-bottom:3px;color:#cfd5ff;font-size:16.5px;font-weight:500;line-height:1.4}
+.ai2-row p b{display:block;color:#ff9f5a;font-size:21px;line-height:1.35;font-weight:900;letter-spacing:-.03em}
+.ai2-row.ai2-key .ai2-no{background:#e66a1a;border-color:#e66a1a}
+.ai2-row.ai2-key .ai2-lead{color:#fff;font-weight:700}
+.ai2-row.ai2-key p b{font-size:24px}
+.ai2-end{padding:24px 18px;border-radius:18px;background:#e66a1a;text-align:center;box-shadow:0 10px 24px rgba(0,0,0,.22)}
+.ai2-end strong{display:block;color:#fff;font-size:27px;line-height:1.38;font-weight:900;letter-spacing:-.035em}
+.ai2.ai2-js .ai2-row,.ai2.ai2-js .ai2-end{opacity:0;transform:translateY(16px);transition:opacity .6s ease-out,transform .6s ease-out}
+.ai2.ai2-js .ai2-on{opacity:1;transform:none}
+@media(min-width:561px){.ai2{padding:46px 44px 36px}.ai2-title{font-size:40px}.ai2-row{padding-left:64px}.ai2-no{width:40px;height:40px;line-height:36px;font-size:18px}.ai2-row:before{left:19px;top:46px}.ai2-lead{font-size:18px}.ai2-row p b{font-size:25px}.ai2-row.ai2-key p b{font-size:29px}.ai2-end strong{font-size:33px}}
+@media(max-width:400px){.ai2-row p b{font-size:19.5px}.ai2-row.ai2-key p b{font-size:22px}}
+@media(max-width:370px){.ai2{padding:30px 16px 24px}.ai2-title{font-size:26px}.ai2-row{padding-left:50px}.ai2-row p b{font-size:18.5px}.ai2-row.ai2-key p b{font-size:20.5px}.ai2-lead{font-size:15.5px}.ai2-end strong{font-size:24px}}
 </style>
 
-<div class="ai-box">
-<div class="ai-bar"></div>
-<h3 class="ai-title">AI 검색엔진의 등장,<br>검색의 흐름이 완전히 바뀌고 있습니다.</h3>
-<p class="ai-line">직접 하던 광고, <b>한계에 왔습니다.</b></p>
-<p class="ai-line">검색하면 <b>AI가 답부터 정리하고,</b></p>
-<p class="ai-line">사람들은 <b>블로그를 열지 않고 나갑니다.</b></p>
-<p class="ai-line">열심히 써봐도 <b>보이지 않는 Zero-Click 시대.</b></p>
-<p class="ai-line ai-last">이제 광고는<mark>전문가의 영역</mark>입니다.</p>
+<div class="ai2">
+<div class="ai2-tag">AI 검색의 시대</div>
+<h3 class="ai2-title">AI 검색엔진의 등장,<br><em>검색의 흐름</em>이<br>완전히 바뀌고 있습니다.</h3>
+<div class="ai2-list">
+<div class="ai2-row"><span class="ai2-no">1</span><p><span class="ai2-lead">직접 하던 광고,</span><b>한계에 왔습니다.</b></p></div>
+<div class="ai2-row"><span class="ai2-no">2</span><p><span class="ai2-lead">검색하면</span><b>AI가 답부터 정리하고,</b></p></div>
+<div class="ai2-row"><span class="ai2-no">3</span><p><span class="ai2-lead">사람들은</span><b>블로그를 열지 않고 나갑니다.</b></p></div>
+<div class="ai2-row ai2-key"><span class="ai2-no">4</span><p><span class="ai2-lead">열심히 써도</span><b>보이지 않는 시대.</b></p></div>
+</div>
+<div class="ai2-end"><strong>이제 광고는<br>전문가의 영역입니다.</strong></div>
 </div>
 
 <div class="shot"><img src="p11.png" alt="AI 검색 시대, 복잡해진 검색 광고 용어들" onerror="this.parentNode.style.display='none'"></div>
 
 <script>
 (function(){
-  var box=document.querySelector('.ai-box');
+  var box=document.querySelector('.ai2');
   if(!box)return;
   var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if(reduce||!('IntersectionObserver' in window))return;
-  box.classList.add('ai-js');
+  box.classList.add('ai2-js');
   var io=new IntersectionObserver(function(entries){
     var n=0;
     entries.forEach(function(en){
       if(en.isIntersecting){
-        (function(el,d){setTimeout(function(){el.classList.add('on');},d);})(en.target,n*320);
+        (function(el,d){setTimeout(function(){el.classList.add('ai2-on');},d);})(en.target,n*300);
         n++;
         io.unobserve(en.target);
       }
     });
-  },{threshold:.6});
-  box.querySelectorAll('.ai-line').forEach(function(l){io.observe(l);});
+  },{threshold:.5});
+  box.querySelectorAll('.ai2-row,.ai2-end').forEach(function(l){io.observe(l);});
 })();
 </script>
-<!-- ===== AI 검색 변화 박스 끝 ===== -->
+<!-- ===== AI검색박스2 끝 ===== -->
   <p>그래서 광고대행업체에 맡겨보신 분도 많으실 겁니다.</p>
 <h3>업체에 맡겨본 분들은 다 아실 겁니다.</h3>
 <div class="info">
