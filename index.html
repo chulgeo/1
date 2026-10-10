@@ -151,19 +151,56 @@ h2{font-size:26px}
 <div class="wrap">
 
 <!-- ═════════ 히어로 ═════════ -->
-<section class="hero">
-<div class="hero-kicker">철거여기요 · 지역 전문업체 파트너 안내</div>
-<h1>대표님은 철거를 잘하시면 됩니다.<br><span class="orange">고객을 만나는 구조</span>는 함께 만들겠습니다.</h1>
-<p>철거시장에 새로운 시작을 준비하고 있습니다. 정식 출범에 앞서, 지역마다 함께할 대표님들 <span class="navy">몇 분께 먼저</span> 안내해 드리고 있습니다.</p>
-<div class="points">
-<div class="point"><span class="dot">1</span><span>대표님은 이제 견적, 현장, 철거에 집중하시면 됩니다.</span></div>
-<div class="point"><span class="dot">2</span><span>철거여기요는 광고·상담·고객 연결을 <span class="navy">회사에서 직접 운영</span>합니다.</span></div>
-<div class="point"><span class="dot">3</span><span>철거시장을 가까이서 본 팀이, 시장을 키워본 방식으로 설계했습니다.</span></div>
-<div class="point"><span class="dot">4</span><span>단순히 일감만 넘기는 중개가 아니라, 지역 전문업체 대표님과 <span class="navy">함께 시장을 키워보자는 구조</span>입니다.</span></div>
-</div>
+<!-- ===== 첫화면 시작 (여기부터 '첫화면 끝' 줄까지 통째로 복사) ===== -->
+<style>
+.tp-img{margin:-22px -18px 0;background:#161f5c;line-height:0}
+.tp-img img{display:block;width:100%;height:auto}
+.tp-card{position:relative;overflow:hidden;margin:22px 0 0;padding:30px 22px 26px 28px;border-radius:24px;background:linear-gradient(160deg,#fff7ef,#fff 70%);border:1px solid #f2dcc9;box-shadow:0 12px 32px rgba(32,45,120,.09)}
+.tp-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px;background:#e66a1a}
+.tp-chip{display:inline-block;margin:0 0 15px;padding:7px 14px;border-radius:999px;background:#e66a1a;color:#fff;font-size:14px;font-weight:900;letter-spacing:.03em}
+.tp-h1{margin:0 0 20px;color:#202d78;font-size:28px;line-height:1.36;font-weight:900;letter-spacing:-.045em}
+.tp-h1 em{font-style:normal;color:#e66a1a}
+.tp-body{margin:0 0 13px;color:#333;font-size:18px;line-height:1.75;font-weight:500}
+.tp-body b{color:#202d78;font-weight:900}
+.tp-body b.o{color:#e66a1a}
+.tp-close{margin:18px 0 0;padding-top:17px;border-top:1px dashed #e6c9ae;color:#555;font-size:17px;line-height:1.75;font-weight:700}
+.tp-close span{color:#e66a1a;font-weight:900}
+.tp-lead{margin:42px 0 22px;color:#202d78;font-size:27px;line-height:1.42;font-weight:900;letter-spacing:-.045em}
+.tp-lead em{font-style:normal;color:#e66a1a}
+.tp-lead .mb{display:block}
+.tp-points{margin:0;padding:0;list-style:none}
+.tp-points li{display:flex;gap:13px;align-items:flex-start;padding:16px 2px;border-top:1px solid #ececec;color:#222;font-size:17.5px;line-height:1.65;font-weight:600}
+.tp-points li:last-child{border-bottom:1px solid #ececec}
+.tp-points .n{flex:0 0 30px;height:30px;line-height:30px;margin-top:1px;border-radius:50%;background:#202d78;color:#fff;font-size:14px;font-weight:900;text-align:center}
+.tp-points b{color:#202d78;font-weight:900}
+.tp-up{animation:tpUp .7s ease both}
+.tp-d1{animation-delay:.1s}.tp-d2{animation-delay:.35s}.tp-d3{animation-delay:.6s}
+@keyframes tpUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@media(max-width:560px){.tp-img{margin:-18px -15px 0}}
+@media(max-width:370px){.tp-card{padding:26px 16px 22px 22px}.tp-h1{font-size:25px}.tp-body{font-size:17px}.tp-lead{font-size:24px}.tp-points li{font-size:16.5px}}
+@media(min-width:561px){.tp-card{padding:42px 44px 34px 48px}.tp-h1{font-size:42px}.tp-body{font-size:20px}.tp-close{font-size:18.5px}.tp-lead{font-size:35px;margin-top:52px}.tp-lead .mb{display:none}.tp-points li{font-size:19px;padding:18px 2px}.tp-points .n{flex-basis:34px;height:34px;line-height:34px}}
+@media(prefers-reduced-motion:reduce){.tp-up{animation:none}}
+</style>
+
+<div class="tp-img"><img src="p1.png" alt="지역 파트너 대표님과 함께, 철거시장에 새로운 판이 시작됩니다!" onerror="this.parentNode.style.display='none'"></div>
+
+<section class="tp-card tp-up tp-d1">
+<div class="tp-chip">지역 전문업체 파트너 안내</div>
+<h1 class="tp-h1">철거시장 확장 목표로<br>준비하는 회사,<br><em>‘철거여기요’</em>입니다.</h1>
+<p class="tp-body">단순히 일감만 전달하는 관계를 넘어, <b>전문업체와 함께 더 체계적인 고객 확보 구조</b>를 만들어가려 합니다.</p>
+<p class="tp-body">정식 출범에 앞서, 지역을 대표할 대표님 <b class="o">몇 분께만</b> 먼저 직접 안내해 드리고 있습니다.</p>
+<p class="tp-close">바쁘시더라도 시장 변화에 함께 참여하는 <span>좋은 기회</span>가 되었으면 합니다.</p>
 </section>
 
-<div class="shot"><img src="p1.png" alt="철거여기요 소개 이미지" onerror="this.parentNode.style.display='none'"></div>
+<p class="tp-lead tp-up tp-d2">대표님은 철거를<br class="mb"> 잘하시면 됩니다.<br><em>고객을 만나는 구조는</em><br class="mb"> 함께 만들겠습니다.</p>
+
+<ul class="tp-points tp-up tp-d3">
+<li><span class="n">1</span><span>대표님은 <b>견적·현장·철거</b>에 집중하시면 됩니다.</span></li>
+<li><span class="n">2</span><span>철거여기요는 광고·상담·고객 연결을 <b>직접 운영</b>합니다.</span></li>
+<li><span class="n">3</span><span>철거시장을 가까이서 본 팀이, <b>시장을 키워본 방식</b>으로 설계했습니다.</span></li>
+<li><span class="n">4</span><span>일감만 넘기는 중개가 아니라, 지역 전문업체 대표님과 <b>함께 시장을 키우는 구조</b>입니다.</span></li>
+</ul>
+<!-- ===== 첫화면 끝 ===== -->
 
 <hr class="divider">
 
