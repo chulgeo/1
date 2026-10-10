@@ -226,7 +226,7 @@ h2{font-size:26px}
 <p>낮에는 현장, 저녁에는 고객 전화, 밤에는 다시 컴퓨터 앞. 블로그는 어떻게 해야 하는지, 광고비는 왜 나가는지 혼자 고민합니다.</p>
 <div class="quote"><strong>“우리 아빠는 맨날 바쁜 사람이에요.”</strong></div>
 <div class="shot"><img src="p3.png" alt="수입, 성장, 시간, 가족을 생각하는 대표" onerror="this.parentNode.style.display='none'"></div>
-<p>물론 가족을 위해서 하는 일입니다. 더 벌고 싶고, 사업을 키우고 싶고, 지금보다 조금은 여유 있게 살고 싶어서 하루를 쪼개 씁니다. <span class="navy">더 벌고 싶다는 마음, 더 잘 살고 싶은 마음.</span> 대표님이 일하는 이유 그 자체입니다.</p>
+<p>물론 가족을 위해서 하는 일입니다. <span class="navy">더 벌고 싶고, 사업을 키우고 싶고, 지금보다 조금은 여유 있게 살고 싶어서 하루를 쪼개 씁니다.</span> 이것이 대표님이 일하는 이유 그 자체입니다.</p>
 <div class="info">
 <div class="info-title">대표님이 바라는 것은 어쩌면 단순합니다.</div>
 <div class="cards">
@@ -249,14 +249,14 @@ h2{font-size:26px}
 <div class="quote"><strong>철거는 ‘부수는 일’보다<br>‘책임지는 일’에 가깝습니다.</strong></div>
 <p>그래서 현장을 잘하는 대표님에게 가장 중요한 건 경험과 기술입니다. 그런데 회사를 키우는 데 필요한 능력은 또 다릅니다.</p>
 <div class="shot"><img src="p4.png" alt="현장에서 작업하는 철거 전문가" onerror="this.parentNode.style.display='none'"></div>
-<p>그런데 말입니다.<br> <h3>철거를 잘하는 것과, 고객을 만나는 것은 다른 문제입니다.</h3>
+<p> <h3>그런데 말입니다.<br> 철거를 잘하는 것과, 고객을 만나는 것은 다른 문제입니다.</h3>
 <p>가게를 정리하는 고객은 대부분 철거가 처음입니다. 어디에 연락해야 할지 몰라 휴대폰부터 켭니다.</p>
 <div class="steplist">
 <div class="sl-row"><span class="sl-num">1</span>철거가 필요해졌습니다</div>
 <div class="sl-row"><span class="sl-num">2</span>휴대폰으로 검색부터 합니다</div>
-<div class="sl-row"><span class="sl-num">3</span>여러 업체를 비교해봅니다</div>
+<div class="sl-row"><span class="sl-num">3</span>여러 업체를 찾아 비교해봅니다</div>
 <div class="sl-row"><span class="sl-num">4</span>마음에 드는 곳에 문의합니다</div>
-<div class="sl-row"><span class="sl-num">5</span>그제야 상담이 시작됩니다</div>
+<div class="sl-row"><span class="sl-num">5</span>그제야 우리는 상담이 시작됩니다</div>
 </div>
 <p>대표님의 실력은 현장에서 빛납니다. 하지만 고객은 현장에 오기 전에, 이미 검색 화면에서 업체를 고릅니다.</p>
 <div class="quote"><strong>“철거는 자신 있는데…<br>고객은 어떻게 만나야 하지?”</strong></div>
@@ -267,7 +267,7 @@ h2{font-size:26px}
 
 <!-- ═════════ CH 04 ═════════ -->
 <section class="chapter">
-<div class="chapter-mark"><span>04</span><b>퇴근 후의 또 다른 일</b><em>CHAPTER 4</em></div>
+<div class="chapter-mark"><span>04</span><b>또 다른 일</b><em>CHAPTER 4</em></div>
 <h2>그래서 대표님은 퇴근 후에 또 다른 일을 시작합니다.</h2>
 <p>직접 해보기로 합니다. 블로그를 만들고, 사진을 올리고, 광고 계정을 열고, 검색어를 찾아봅니다.</p>
 <div class="thought-solo"><p>“철거하러 나왔는데,<br>왜 밤에는 광고 공부를 하고 있지?”</p></div>
@@ -277,7 +277,7 @@ h2{font-size:26px}
 <div class="step"><span class="num">3</span><div><b class="navy">학습</b> — 광고와 온라인 기준은 계속 바뀝니다.</div></div>
 <div class="step"><span class="num">4</span><div><b class="navy">결과</b> — 비용을 쓴다고 원하는 결과가 보장되지 않습니다.</div></div>
 </div>
-<!-- ===== AI검색박스2 시작 (여기부터 끝 표시까지 통째로 복사) ===== -->
+<!-- ===== AI검색박스 ===== -->
 <style>
 .ai2{margin:36px 0 22px;padding:34px 22px 26px;border-radius:24px;background:linear-gradient(165deg,#161f5c,#202d78 55%,#2b3b9c);box-shadow:0 16px 38px rgba(32,45,120,.3);color:#fff;text-align:left}
 .ai2-tag{display:inline-block;margin:0 0 16px;padding:7px 14px;border-radius:999px;background:#e66a1a;color:#fff;font-size:14px;font-weight:900;letter-spacing:.04em}
@@ -305,15 +305,15 @@ h2{font-size:26px}
 </style>
 
 <div class="ai2">
-<div class="ai2-tag">AI 검색의 시대</div>
-<h3 class="ai2-title">AI 검색엔진의 등장,<br><em>검색의 흐름</em>이<br>완전히 바뀌고 있습니다.</h3>
+<div class="ai2-tag">AI 검색의 시대와 광고시장</div>
+<h3 class="ai2-title">AI 검색엔진의 등장으로,<br><em>검색의 흐름</em>이<br>완전히 바뀌고 있습니다.</h3>
 <div class="ai2-list">
 <div class="ai2-row"><span class="ai2-no">1</span><p><span class="ai2-lead">직접 하던 광고,</span><b>이제 한계에 왔습니다.</b></p></div>
 <div class="ai2-row"><span class="ai2-no">2</span><p><span class="ai2-lead">검색하면</span><b>AI가 답부터 내놓기 때문에,</b></p></div>
 <div class="ai2-row"><span class="ai2-no">3</span><p><span class="ai2-lead">사람들은</span><b>블로그를 열지 않고 나갑니다.</b></p></div>
 <div class="ai2-row ai2-key"><span class="ai2-no">4</span><p><span class="ai2-lead">열심히 써도</span><b>보이지 않는 Zero-Click 시대.</b></p></div>
 </div>
-<div class="ai2-end"><strong>이제 온라인광고는<br>전문가의 영역입니다.</strong></div>
+<div class="ai2-end"><strong>이제 온라인 광고는<br>전문가의 영역입니다.</strong></div>
 </div>
 
 <div class="shot"><img src="p11.png" alt="AI 검색 시대, 복잡해진 검색 광고 용어들" onerror="this.parentNode.style.display='none'"></div>
@@ -339,7 +339,7 @@ h2{font-size:26px}
 })();
 </script>
 <!-- ===== AI검색박스2 끝 ===== -->
-  <p>그래서 광고대행업체에 맡겨보신 분도 많으실 겁니다.</p>
+  <p>그래서 광고대행 업체에 맡겨보신 분도 많으실 겁니다.</p>
 <h3>업체에 맡겨본 분들은 다 아실 겁니다.</h3>
 <div class="info">
 <div class="info-title">혹시 이런 경험, 한 번쯤 있으셨다면</div>
@@ -350,8 +350,83 @@ h2{font-size:26px}
 <li>광고비는 계속 나가는데, 무엇이 효과였는지 설명을 들어본 적 없는 경험</li>
 </ul>
 </div>
-<p>모든 곳이 그렇다는 말이 아닙니다. 다만 한 번이라도 겪으셨다면, 그건 대표님이 광고를 몰라서가 아닙니다.</p>
-<div class="quote"><strong>철거를 모르는 구조에<br>비용을 쓰고 계셨기 때문일 수 있습니다.</strong></div>
+<!-- ===== 광고구조도식 시작 (여기부터 '광고구조도식 끝' 줄까지 통째로 복사) ===== -->
+<style>
+.cs{margin:30px 0 26px;padding:30px 20px 26px;border-radius:24px;background:#fff;border:1px solid #e3e5f0;border-top:8px solid #e66a1a;box-shadow:0 14px 34px rgba(32,45,120,.12)}
+.cs-tag{display:inline-block;margin:0 0 14px;padding:7px 14px;border-radius:999px;background:#202d78;color:#fff;font-size:14px;font-weight:900;letter-spacing:.03em}
+.cs-title{margin:0 0 14px;color:#202d78;font-size:26px;line-height:1.38;font-weight:900;letter-spacing:-.045em}
+.cs-title em{font-style:normal;color:#e66a1a}
+.cs-lead{margin:0 0 20px;color:#444;font-size:17.5px;line-height:1.7;font-weight:500}
+.cs-lead b{color:#202d78;font-weight:900}
+.cs-legend{margin:0 0 4px;color:#8a8f9c;font-size:13.5px;line-height:1.5}
+.cs-list{margin:0 0 6px}
+.cs-row{padding:16px 0 15px}
+.cs-row+.cs-row{border-top:1px dashed #dfe2ee}
+.cs-top{display:flex;gap:13px;align-items:flex-start}
+.cs-no{flex:0 0 32px;height:32px;line-height:32px;border-radius:50%;background:#202d78;color:#fff;font-size:14px;font-weight:900;text-align:center}
+.cs-txt{color:#555;font-size:16.5px;line-height:1.5;font-weight:500}
+.cs-txt b{display:block;color:#202d78;font-size:19.5px;line-height:1.35;font-weight:900;letter-spacing:-.02em}
+.cs-track{height:9px;margin:11px 0 0 45px;border-radius:9px;background:#eceef7;overflow:hidden}
+.cs-track i{display:block;width:var(--w);height:100%;border-radius:9px;background:linear-gradient(90deg,#202d78,#6f7bd9)}
+.cs-key .cs-no{background:#e66a1a}
+.cs-key .cs-txt{color:#e66a1a;font-weight:900}
+.cs-key .cs-track i{background:#e66a1a}
+.cs-sum{margin:6px 0 0;padding:16px 16px;border-radius:14px;background:#f4f6fb;color:#333;font-size:17px;line-height:1.75;font-weight:500}
+.cs-sum b{color:#e66a1a;font-weight:900}
+.cs.cs-js .cs-row{opacity:0;transform:translateY(14px);transition:opacity .55s ease-out,transform .55s ease-out}
+.cs.cs-js .cs-track i{width:0;transition:width 1.1s ease-out .25s}
+.cs.cs-js .cs-row.cs-on{opacity:1;transform:none}
+.cs.cs-js .cs-row.cs-on .cs-track i{width:var(--w)}
+@media(min-width:561px){.cs{padding:40px 40px 32px}.cs-title{font-size:36px}.cs-lead{font-size:19.5px}.cs-txt{font-size:18px}.cs-txt b{font-size:22px}.cs-no{flex-basis:36px;height:36px;line-height:36px;font-size:15px}.cs-track{margin-left:49px;height:10px}.cs-sum{font-size:18.5px;padding:20px 22px}}
+@media(max-width:370px){.cs{padding:26px 15px 22px}.cs-title{font-size:23px}.cs-txt b{font-size:18.5px}.cs-txt{font-size:15.5px}.cs-track{margin-left:44px}}
+@media(prefers-reduced-motion:reduce){.cs.cs-js .cs-row,.cs.cs-js .cs-track i{transition:none}}
+</style>
+
+<p class="strong">이런 걸 한 번이라도 겪으셨다면, 그건 대표님이 광고를 몰라서가 아닙니다.</p>
+<p>광고시장의 구조가 원래 그렇게 생겼기 때문입니다.</p>
+
+<div class="cs">
+<div class="cs-tag">광고 대행의 구조</div>
+<h3 class="cs-title">철거 현장의<br>‘원청·하청·재하청’,<br><em>광고에도 똑같이 있습니다.</em></h3>
+<p class="cs-lead">광고업계 안에서 보면, 이 시장은 광고보다 <b>영업이 먼저</b> 움직입니다.</p>
+<div class="cs-legend">막대 = 대표님의 광고비가 단계를 거치며 남는 몫 (이해를 돕는 예시)</div>
+<div class="cs-list">
+<div class="cs-row"><div class="cs-top"><span class="cs-no">1</span><div class="cs-txt"><b>대표님</b>광고비를 냅니다</div></div><div class="cs-track"><i style="--w:100%"></i></div></div>
+<div class="cs-row"><div class="cs-top"><span class="cs-no">2</span><div class="cs-txt"><b>영업사원</b>계약을 따옵니다</div></div><div class="cs-track"><i style="--w:76%"></i></div></div>
+<div class="cs-row"><div class="cs-top"><span class="cs-no">3</span><div class="cs-txt"><b>1차 대행사</b>영업 조직을 모집합니다</div></div><div class="cs-track"><i style="--w:54%"></i></div></div>
+<div class="cs-row"><div class="cs-top"><span class="cs-no">4</span><div class="cs-txt"><b>2차 대행사</b>영업 조직을 관리합니다</div></div><div class="cs-track"><i style="--w:34%"></i></div></div>
+<div class="cs-row cs-key"><div class="cs-top"><span class="cs-no">5</span><div class="cs-txt"><b>실행사</b>그제야 광고를 실제로 집행합니다</div></div><div class="cs-track"><i style="--w:16%"></i></div></div>
+</div>
+<p class="cs-sum">단계마다 영업과 마진이 붙으면, 광고에 쓰이는 몫은 줄어듭니다. 그리고 그 어느 단계에도 <b>철거를 아는 사람은 없습니다.</b></p>
+</div>
+
+<div class="quote"><strong>철거를 모르는 사람<br>여럿을 거친 뒤에야,<br>대표님의 광고가 시작됩니다.</strong></div>
+<p class="strong">그래서 철거여기요는 이 중간 단계를 걷어내고, 광고를 직접 운영하기로 했습니다.</p>
+<p class="note">※ 대표적인 구조를 단순화한 도식입니다. 정부 부처(중소벤처기업부·공정거래위원회·과학기술정보통신부)와 관련 협회도 2024년 12월, 온라인 광고 대행 시장의 사기 등 불법행위 근절을 위한 민관 합동 TF를 출범했습니다.</p>
+
+<script>
+(function(){
+  var box=document.querySelector('.cs');
+  if(!box)return;
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduce||!('IntersectionObserver' in window))return;
+  box.classList.add('cs-js');
+  var io=new IntersectionObserver(function(entries){
+    var n=0;
+    entries.forEach(function(en){
+      if(en.isIntersecting){
+        (function(el,d){setTimeout(function(){el.classList.add('cs-on');},d);})(en.target,n*320);
+        n++;
+        io.unobserve(en.target);
+      }
+    });
+  },{threshold:.5});
+  box.querySelectorAll('.cs-row').forEach(function(r){io.observe(r);});
+})();
+</script>
+<!-- ===== 광고구조도식 끝 ===== -->  
+<p>모든 곳이 그렇다는 말이 아닙니다. 다만 한 번이라도 겪으셨다면, 그건 대표님이 광고를 몰라서가 아닙니다. </p>
+<div class="quote"><strong>지금까지 철거를 모르는 구조에<br>비용을 쓰고 계셨기 때문일 수 있습니다.</strong></div>
 <p class="strong">직접 해도, 맡겨도 풀리지 않았다면 — 문제는 방법이 아니라 구조입니다.</p>
 </section>
 
@@ -361,7 +436,7 @@ h2{font-size:26px}
 <section class="chapter">
 <div class="chapter-mark"><span>05</span><b>우리가 시작한 이유</b><em>CHAPTER 5</em></div>
 <h2>3년 동안 철거업체의 광고를 운영하며, 한 가지를 알게 됐습니다.</h2>
-<p>철거여기요는 지난 3년, <span class="navy">10여 개 철거업체의 광고를 직접 운영</span>하며 시작됐습니다. 대표님들과 계속 소통하면서 견적서, 현장 사진, 고객 문의, 광고비를 매일 가까이서 들여다봤습니다.</p>
+<p>철거여기요는 지난 3년, <span class="navy">10여 개 철거업체의 광고를 시행사로서 직접 운영</span>하며 시작됐습니다. 대표님들과 계속 소통하면서 견적서, 현장 사진, 고객 문의, 광고비를 매일 가까이서 들여다봤습니다.</p>
 <p>광고만 관리한 게 아닙니다. 철거업체가 어떻게 고객을 만나고, 현장에서 무엇에 막히는지를 하나씩 알게 됐습니다.</p>
 <div class="cards">
 <div class="card"><b>영업은 여전히 대표님 몫</b>광고를 해도 상담과 영업까지 결국 대표님이 챙겨야 했습니다.</div>
